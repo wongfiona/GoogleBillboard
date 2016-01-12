@@ -12,13 +12,12 @@ public void draw()
 }  
 public boolean isPrime(double dNum)  
 {   
-    for (int i = 2); i <= Math.sqrt(num); i++)
+    for (int i = 2; i <= Math.sqrt(dNum); i++)
 	{
-		if (num % 1 == 0)
+		if (dNum % 1 == 0)
 			return false;
 	}
-	if (num <= 1)
+	if (dNum <= 1)
 		return false;
-	}
     return true;  
 } 
