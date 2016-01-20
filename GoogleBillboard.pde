@@ -5,6 +5,11 @@ public void setup()
      String digits = e.substring(2, 12);  
      double dNum = Double.parseDouble(digits);
      System.out.println(dNum); //displays 7.182818284E9
+     for (int i = 2; i < digits.length(); i++)
+     {
+     	digits = digits + e.substring(i, i+1);
+        break;
+    }
 }  
 public void draw()  
 {   
